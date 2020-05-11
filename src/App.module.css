@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("https://images.pexels.com/photos/545014/pexels-photo-545014.jpeg?cs=srgb&dl=person-washing-his-hand-545014.jpg&fm=jpg");
+    background-size: 120%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 20%;
+    margin-top: 50px;
+
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 50%;
+    }
+  }
+  .text {
+    height: 100%;
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 1.5;
+  }
